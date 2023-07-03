@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int gcd(int a, int b) //function nsd
 {
     if (b == 0)
@@ -30,6 +30,7 @@ int main() {
         scanf("%d", &arr[i]);}
     int lcmResult = moreLCM(arr, n); //performs function more LCM
     printf("NSK: %d\n", lcmResult);//displays information
+system("pause");//cmd not closing
 
     return 0;
 }

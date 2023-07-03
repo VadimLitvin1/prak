@@ -25,11 +25,11 @@ int main() {
         return 0;}
 
     int arr[n]; //creation of an array with the size specified earlier
-    printf("enter numbers : ");
+    printf(" ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);}
     int lcmResult = moreLCM(arr, n); //performs function more LCM
-    printf("NSK: %d\n", lcmResult);//displays information
+    printf("%d\n", lcmResult);//displays information
 system("pause");//cmd not closing
 
     return 0;
